@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('img/Mặt\ trăng_\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 50px;
+    width: 30vw;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    box-shadow: 0 0 10px #514f4f;
+    background-color: white;
+}
+.sign-in-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-box input{
+    padding: 15px;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0px 0px 20px #545454;
+}
+::placeholder {
+    color: black;
+  }
+.sign-in-button{
+    background-color: #bd59d7;
+    width: 12vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 15px;
+    box-shadow: 0 10px 10px #cc7ddf;
+}
+.sign-in-button > a{
+    text-decoration: none;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in-label{
+    font-weight: 900;
+    font-size: 30px;
+}
+.other-login{
+    font-size: 15px;
+    color: #adadad;
+    padding-top: 5vh;
+}
+.login-with-form{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.google-login a img{
+    width: 20px;
+    height: 20px;
+}
+.icon-login{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+}
+.facebook-login, .google-login{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #d6d1d1;
+}
+.sign-up{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11vh;
+}
+.sign-up > a{
+    text-decoration: none;
+    color: black;
+}
