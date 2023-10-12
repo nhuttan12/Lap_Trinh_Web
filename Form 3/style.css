@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #e2e2e2;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 35vw;
+    margin: 30px auto 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0 0 10px #191818;
+    border-radius: 3px;
+}
+.account-label{
+    color: #7ed321;
+    font-weight: 800;
+    font-size: 15px;
+}
+.full-name,.email-address,.pass,.account div input{
+    background-color: #f9f9f9;
+    font-size: 15px;
+}
+.account-label,.full-name,.email-address,.pass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.full-name,.email-address,.pass{
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+}
+.account div input{
+    border: 0px;
+    width: 27vw;
+    color: #b9b9b9;
+}
+.account div div span{
+    border-right: 1px solid #c0c0c0;
+    padding: 10px;
+    width: 3vw;
+    height: 5vh;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 30vw;
+}
+.account div span, .account div input {
+    padding: 10px;
+}
+.icon{
+    padding: 5px 0 5px 0;
+}
+.icon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b9b9b9;
+}
+.dob-label,.gender-label{
+    font-size: 15px;
+    color: #7ed321;
+    font-weight: 800;
+}
+.dob-gender{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30vw;
+    row-gap: 2vh;
+    padding-top: 4vh;
+}
+.dob-label{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.date input{
+    background-color: #f9f9f9;
+    border: 1px solid #c0c0c0;
+    color: #c0c0c0;
+    border-radius: 3px;
+}
+.gender-label{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.dob-gender div input{
+    width: 4.5vw;
+    height: 7vh;
+    padding: 10px;
+    font-size: 15px;
+}
+.gender{
+    border: 1px solid #c0c0c0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.gender div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #c0c0c0;
+}
+.male{
+    border-right: 1px solid #c0c0c0;
+    height: 7vh;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.female{
+    height: 7vh;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.payment-method{
+    width: 30vw;
+    padding-top: 4vh;
+}
+.payment-label{
+    font-size: 15px;
+    color: #7ed321;
+    font-weight: 800;
+    display: flex;
+}
+.credit-paypal{
+    display: flex;
+    border: 1px solid #c0c0c0;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    color: #c0c0c0;
+    border-radius: 3px;
+}
+.credit-paypal{
+    background-color: #f9f9f9;
+}
+.credit-card{
+    border-right: 1px solid #c0c0c0;
+    background-color: #7ed321;
+    color: white;
+}
+.credit-card span{
+    color: white;
+}
+.credit-card,.paypal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    gap: 5px;
+}
+.card-num{
+    display: flex;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    padding-left: 0px;
+    background-color: #f9f9f9;
+    color: #c0c0c0;
+    border-radius: 3px;
+}
+.card-num span{
+    border-right: 1px solid #c0c0c0;
+    padding: 10px;
+    width: 3vw;
+    height: 5vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-num div{
+    padding: 10px;
+    font-size: 15px;
+}
+.card-cvc{
+    border: 1px solid #c0c0c0;
+    display: flex;
+    padding: 5px;
+    padding-left: 0px;
+    width: 50%;
+    background-color: #f9f9f9;
+    color: #c0c0c0;
+    border-radius: 3px;
+}
+.card{
+    display: flex;
+    gap: 10px;
+}
+.card-cvc span{
+    border-right: 1px solid #c0c0c0;
+    padding: 10px;
+    width: 3vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cvc div{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.date-pay{
+    display: flex;
+    width: 50%;
+    border-radius: 3px;
+}
+.date-pay select{
+    width: 50%;
+    background-color: #f9f9f9;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+}
+.term-label{
+    font-size: 15px;
+    color: #7ed321;
+    font-weight: 800;
+}
+.term-of-services{
+    width: 30vw;
+}
+.term-text{
+    font-size: 15px;
+    color: #c0c0c0;
+}
+.term{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.credit-paypal,.card-num,.card{
+    margin-top: 15px;
+}
+.term-of-services,.term,.term-label{
+    margin-top: 15px;
+}
+#term-checkbox{
+    transform: translateY(15%);
+    background-color: #f9f9f9;
+    border: 1px solid #c0c0c0;
+}
