@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 30vw;
+    height: 50vh;
+    /* border: 1px solid black; */
+    gap: 10px;
+}
+#textarea{
+    width: 100%;
+    height: 20vw;
+}
+.result{
+    height: 3vh;
+    border: 1px solid black;
+    width: 50%;
+}
